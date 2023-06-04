@@ -1,9 +1,9 @@
 public class TaskWork3 {
-    public static void main(String args[]){
-        int[] mas={1,2,3,4,5};
+    public static void main(String args[]) {
+        int[] mas = {1, 2, 3, 4, 5};
         //замена элементов первого на последний
-        mas[0]=5;
-        mas[4]=1;
+        mas[0] = 5;
+        mas[4] = 1;
 
         int min = Integer.MAX_VALUE;
         int max = Integer.MIN_VALUE;
@@ -14,7 +14,7 @@ public class TaskWork3 {
             if (mas[i] > max) max = mas[i];
         }
 
-      //поиск среднего элемента
+        //поиск среднего элемента
         int delta = Integer.MAX_VALUE;
         int index = 0;
         int aver = (max + min) / 2;
@@ -25,6 +25,6 @@ public class TaskWork3 {
                 index = i;
             }
         }
-        System.out.println("Суммы первого и среднего элемента: "+ (mas[0]+mas[index]));
+        System.out.println("Суммы первого и среднего элемента: " + (mas[0] + mas[index]));
     }
 }
