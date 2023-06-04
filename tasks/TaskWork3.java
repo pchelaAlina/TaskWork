@@ -1,6 +1,7 @@
 public class TaskWork3 {
     public static void main(String args[]){
         int[] mas={1,2,3,4,5};
+        //замена элементов первого на последний
         mas[0]=5;
         mas[4]=1;
 
