@@ -16,7 +16,7 @@ public class TaskWork3 {
             if (mas[i] > max) max = mas[i];
         }
 
-        // начало магии
+      //поиск среднего элемента
         int delta = Integer.MAX_VALUE;
         int index = 0;
         int aver = (max + min) / 2;
