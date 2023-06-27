@@ -24,7 +24,7 @@ public class TaskWork14 {
         System.out.println("Минимальный элемент массива : " + min);
         int res = Math.max(Math.abs(min), Math.abs(max));
         if (Math.abs(min) == Math.abs(max))
-            System.out.println("Abs Max is equals Abs min");
+            System.out.println("Максимальный и минимальный элемент равны ");
         else
             System.out.println("максимальное по модулю: " + res);
     }
